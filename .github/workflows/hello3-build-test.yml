@@ -24,7 +24,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: hello3-builds
-        path: ./
+        path: ./build
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
